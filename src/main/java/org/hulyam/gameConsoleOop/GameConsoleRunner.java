@@ -17,7 +17,7 @@ package org.hulyam.gameConsoleOop;
  *
  */
 
-public class Main {
+public class GameConsoleRunner {
     public static void main(String[] args) {
 
         GameRunner gameRunner = new GameRunner(new Mario()); // new Mario or Pacman or Contra object is created

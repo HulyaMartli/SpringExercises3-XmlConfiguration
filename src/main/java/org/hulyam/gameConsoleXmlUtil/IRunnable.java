@@ -1,4 +1,4 @@
-package org.hulyam.gameConsoleOop;
+package org.hulyam.gameConsoleXmlUtil;
 
 public interface IRunnable {
     void up();
