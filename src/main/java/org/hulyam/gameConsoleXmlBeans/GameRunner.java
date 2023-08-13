@@ -1,4 +1,4 @@
-package org.hulyam.gameConsoleXmlUtil;
+package org.hulyam.gameConsoleXmlBeans;
 
 public class GameRunner {
     IRunnable game;

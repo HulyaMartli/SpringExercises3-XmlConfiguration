@@ -1,4 +1,4 @@
-package org.hulyam.gameConsoleXmlUtil;
+package org.hulyam.gameConsoleIoCAnnotation;
 
 /*
  *  up --> "Go up."
@@ -7,6 +7,10 @@ package org.hulyam.gameConsoleXmlUtil;
  *  right --> "Fire!"
  *
  */
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class Contra implements IRunnable {
     @Override
     public void up() {

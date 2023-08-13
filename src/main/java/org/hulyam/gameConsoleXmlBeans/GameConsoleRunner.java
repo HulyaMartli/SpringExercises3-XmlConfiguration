@@ -1,4 +1,4 @@
-package org.hulyam.gameConsoleXmlUtil;
+package org.hulyam.gameConsoleXmlBeans;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -6,7 +6,7 @@ public class GameConsoleRunner {
     public static void main(String[] args) {
 
         // to specify the XML configuration file:
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("gameConsoleApplicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("gameConsoleBeans.xml");
 
         // instead of creating a new game object (new Mario, new Contra...)
         // we passed this to Spring via XMLApplicationContext

@@ -12,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class DatabaseRunner {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("databaseApplicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("databasePropertyPlaceholderContext.xml");
         DatabaseService databaseService = context.getBean("databaseservice", DatabaseService.class);
         databaseService.logToDatabase();
     }
